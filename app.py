@@ -7,7 +7,7 @@ import seaborn as sns
 # Hide PyplotGlobalUseWarning
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-data = pd.read_csv('dashboard/main_data.csv')
+data = pd.read_csv('main_data.csv')
 
 st.title("The most popular day for group of users")
 
